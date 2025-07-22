@@ -3,29 +3,29 @@
 
 ## **Project Overview**
 
-This project focuses on analyzing Blinkit's retail sales data using **SQL** and **Power BI** to uncover meaningful business insights. The objective was to clean and standardize the dataset, compute KPIs, and build an interactive dashboard for business users to make informed decisions.
+This project involves analyzing Blinkit's retail sales data using **SQL** and **Power BI** to extract actionable business insights. The analysis covers data cleaning, KPI computation, and visualization through an interactive dashboard, simulating real-world data operations tasks.
 
 ---
 
 ## **Technologies Used**
 
-- **SQL** – Data cleaning, transformation, and advanced query building  
-- **Power BI** – Data visualization and interactive dashboard creation
+- **SQL** – For data cleaning, transformation, and KPI computation  
+- **Power BI** – For dashboard creation and data visualization
 
 ---
 
 ## **Key Contributions**
 
-- Cleaned and standardized raw data fields (e.g., `Item_Fat_Content`) to ensure data consistency for reporting and aggregation.  
-- Built advanced SQL queries to generate KPIs including **Total Sales**, **Average Sales**, **Number of Items Sold**, and **Average Rating**.  
-- Conducted deep-dive analysis on various dimensions such as **Item Type**, **Outlet Type**, **Outlet Size**, **Location**, and **Establishment Year**.  
-- Created a **dynamic Power BI dashboard** visualizing sales trends, outlet performance, and product segmentation.
+- Standardized and cleaned retail data fields (e.g., `Item_Fat_Content`) to ensure accurate and consistent reporting.
+- Developed SQL queries to calculate essential KPIs: **Total Sales**, **Average Sales**, **Number of Items Sold**, and **Average Rating**.
+- Performed deep-dive analysis by **Item Type**, **Outlet Type**, **Outlet Size**, **Location**, and **Establishment Year**.
+- Built an **interactive Power BI dashboard** to visualize sales performance, outlet segmentation, and product-level insights.
 
 ---
 
 ## **Dashboard Preview**
 
-![Blinkit Dashboard](./2121a056-f7e8-404a-9328-3f74a6215486.png)
+![Blinkit Power BI Dashboard](./dashboard.png)
 
 ---
 
@@ -36,7 +36,7 @@ This project focuses on analyzing Blinkit's retail sales data using **SQL** and 
 - **Number of Items Sold:** 8,523  
 - **Average Customer Rating:** 3.9  
 
-**Breakdowns Available:**
+**Breakdowns include:**
 
 - Sales by Fat Content (Low Fat vs Regular)  
 - Sales by Item Type  
@@ -48,11 +48,11 @@ This project focuses on analyzing Blinkit's retail sales data using **SQL** and 
 
 ## **Real-World Application**
 
-This project simulates the tasks of a **Data Operations Analyst**, such as:
+Simulates real-world **Data Operations Analyst** tasks such as:
 
-- Custom product mapping and data attribution  
+- Product mapping and data categorization  
 - Generating client-specific sales insights  
-- Building visual reports for non-technical stakeholders  
+- Building dashboards for operational decision-making  
 
 ---
 
@@ -65,8 +65,5 @@ This project simulates the tasks of a **Data Operations Analyst**, such as:
 
 ## **How to Use**
 
-Clone the repository and check out:
-
-- SQL scripts for data cleaning & KPI generation  
-- Power BI `.pbix` file for interactive dashboards  
-- Screenshots and insights documentation
+- Place `dashboard.png` in the root of your repository alongside this README file.  
+- Upload SQL scripts and Power BI `.pbix` file in relevant folders.  
